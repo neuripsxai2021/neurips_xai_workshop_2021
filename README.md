@@ -24,7 +24,7 @@ In order to install the code locally please follow the steps below:
 
 3. Run the following command to set up the environment:
 
-   `make -f Makefile.linux` on **Linux/Mac**
+   `make` on **Linux/Mac**
 
 4. Activate the environment by running:
 
