@@ -1,5 +1,5 @@
-Neurips XAI Workshop 2021 Code Submission
-===========================================
+Neurips XAI Workshop 2021 Code Submission for Paper "Interpretability in Gated Modular Neural Networks"
+=======================================================================================================
 
 Code for reproducing results in the paper
 
