@@ -7,7 +7,7 @@ REQUIREMENTS
 ------------
 
 1. ``Python 3.7`` (or above)
-2. Linux Operating System. It has been tested on MacOS. 
+2. Linux Operating System. It has been tested on Ubuntu and MacOS. 
 3. Additional modules listed in ``requirements.txt``
 
 INSTALLATION 
