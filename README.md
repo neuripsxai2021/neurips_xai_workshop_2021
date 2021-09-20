@@ -20,7 +20,7 @@ In order to install the code locally please follow the steps below:
 
 2. Set the environment variable to point to your python executable:
 
-   `export PYTHON=<path to python executable>`
+   `export PYTHON=<path to python 3.7 or above executable>`
 
 3. Run the following command to set up the environment:
 
