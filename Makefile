@@ -1,6 +1,7 @@
 # Makefile for neurips xai workshop code
 # Type "make" or "make all" to build the complete development environment
 # Type "make help" for a list of commands
+# Type "make clean" to clean the venv
 
 # Variables for the Makefile
 .PHONY = all clean
@@ -10,8 +11,12 @@ VIRTUAL_ENV_TARGET := xai2021
 
 # Makefile commands, see below for actual builds
 
-## all              : set up DD API development environment
+## all              : build the venv
 all: virtual_env install_torch
+
+## clean	  : remove venv
+clean:
+	-rm -rf xai2021
 
 ## help             : show all commands.
 # Note the double '##' in the line above: this is what's matched to produce
@@ -34,6 +39,5 @@ $(VIRTUAL_ENV_TARGET):
 	pip install --upgrade pip; \
 	pip install setuptools --upgrade; \
         pip install  -r requirements.txt; \
-	$(PYTHON) -m ipykernel install --user --name xai2021 --display-name "xai2021";
-	
+	$(PYTHON) -m ipykernel install --user --name xai2021 --display-name "xai2021";	
 
