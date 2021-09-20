@@ -7,7 +7,7 @@ REQUIREMENTS
 ------------
 
 1. ``Python 3.7`` (or above)
-2. ``Pytorch 1.6.0``
+2. ``Pytorch 1.6.0, optionally with Cuda 10.1`` 
 3. Linux Operating System. It has been tested on Ubuntu and MacOS. 
 4. Additional modules listed in ``requirements.txt``
 
