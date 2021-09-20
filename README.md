@@ -37,7 +37,7 @@ RUNNING JUPYTER NOTEBOOK
 
    `jupyter lab`
 
-2. In the jupyter lab open either the toy_classification.ipynb or mnist_classification.ipynb notebooks.
+2. In the jupyter lab open the toy_classification.ipynb and mnist_classification.ipynb notebooks which contain the all the experiments from the paper.
 
 3. Select the xai2021 kernel.
 
