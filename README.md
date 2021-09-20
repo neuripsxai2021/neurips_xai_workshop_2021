@@ -7,8 +7,9 @@ REQUIREMENTS
 ------------
 
 1. ``Python 3.7`` (or above)
-2. Linux Operating System. It has been tested on Ubuntu and MacOS. 
-3. Additional modules listed in ``requirements.txt``
+2. ``Pytorch 1.6.0``
+3. Linux Operating System. It has been tested on Ubuntu and MacOS. 
+4. Additional modules listed in ``requirements.txt``
 
 INSTALLATION 
 ------------
